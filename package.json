@@ -1,0 +1,49 @@
+{
+  "name": "react-native-keyboard-container",
+  "version": "0.1.0",
+  "description": "React Native Keyboard Container for iOS and Android",
+  "main": "lib/index.js",
+  "scripts": {
+    "fixcode": "eslint --format=node_modules/eslint-formatter-pretty . --fix",
+    "lint": "eslint --format=node_modules/eslint-formatter-pretty ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/attitude/react-native-keyboard-container.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "keyboard",
+    "container"
+  ],
+  "author": "Martin Adamko <attitude> (https://github.com/attitude)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attitude/react-native-keyboard-container/issues"
+  },
+  "homepage": "https://github.com/attitude/react-native-keyboard-container#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.6.1",
+    "react": "16.3.1",
+    "react-native": "0.55.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-formatter-pretty": "^1.3.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-standard": "^3.1.0",
+    "flow-bin": "^0.73.0",
+    "flow-typed": "^2.4.0"
+  }
+}

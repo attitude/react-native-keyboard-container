@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint-config-airbnb",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:flowtype/recommended"
+  ],
+  "parser": "babel-eslint",
+  "rules": {
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": "off",
+    "react/jsx-filename-extension": "off",
+    "react/no-unused-prop-types": "off",
+    "quotes": ["error","single"],
+    "jsx-quotes": ["error", "prefer-single"],
+    "no-nested-ternary": "off"
+  },
+  "plugins": [
+    "flowtype",
+    "import",
+    "promise",
+    "react"
+  ]
+}
